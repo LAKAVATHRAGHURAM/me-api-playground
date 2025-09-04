@@ -1,0 +1,20 @@
+{
+  "name": "me-api-playground-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "db:init": "sqlite3 database.sqlite < schema.sql && sqlite3 database.sqlite < seed.sql",
+    "seed": "node src/utils/seed.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "sqlite3": "^5.1.7",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
