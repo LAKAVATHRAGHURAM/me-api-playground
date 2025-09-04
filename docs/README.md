@@ -23,4 +23,10 @@ npm run dev
 # Host link
 
 - https://me-api-playground-2-951l.onrender.com/api/health
+- https://me-api-playground-2-951l.onrender.com/api/health → liveness check
+- https://me-api-playground-2-951l.onrender.com/api/profile → full profile
+- https://me-api-playground-2-951l.onrender.com/api/projects?skill=X → filter projects by skill
+- https://me-api-playground-2-951l.onrender.com/api/skills/top → top skills
+- https://me-api-playground-2-951l.onrender.com/api/search?q=Y → search across profile/projects/skills
+
 
