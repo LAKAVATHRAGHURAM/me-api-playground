@@ -4,6 +4,7 @@
   "type": "module",
   "main": "src/index.js",
   "scripts": {
+    "start": "node src/index.js",
     "dev": "nodemon src/index.js",
     "db:init": "sqlite3 database.sqlite < schema.sql && sqlite3 database.sqlite < seed.sql",
     "seed": "node src/utils/seed.js"
