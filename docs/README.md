@@ -30,3 +30,6 @@ npm run dev
 - https://me-api-playground-2-951l.onrender.com/api/search?q=Y → search across profile/projects/skills
 
 
+# resume link
+- https://drive.google.com/file/d/1Tb5stybohiOJztC4pRAMc6GMY0unEYAs/view?usp=sharing
+
